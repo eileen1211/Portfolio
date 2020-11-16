@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'ClementePDaq';
+    src: url("font/ClementePDaq-UltraBold.ttf");
+    src: url("font/ClementePDaq-UltraBold.ttf?#site_title")format("truetype");
+}
+
+@font-face{
+    font-family: "SDSwagger";
+    src: url("font/SDSwaggerTTF.ttf");
+}
+
+@font-face{
+    font-family: "NotoSansCJKkr";
+    src: url("font/NotoSansCJKkr-Medium.otf");
+}
+
+#container{
+    position: relative;
+    width: 95%;
+    height: 1080px;
+    margin: 0px auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+#icon{
+    margin-top: 10%;
+    width: 2%;
+    height: 2%;
+}
+
+#title{
+    position: relative;
+    font-family: "ClementePDaq";
+    font-size: 100px;
+    color: #2ee5a8;
+    top: 200px;
+
+}
+
+#sub_T{
+    position: relative;
+    font-family: "SDSwagger", "스웨거ttf", "스웨거";
+    font-size: 30px;
+    color: #f19bc2;
+    top: 100px;
+
+}
+
+#main{
+    position: relative;
+    font-family: 'NotoSansCJKkr';
+    font-size: 20px;
+    top: 100px;
+}
+
+#ill{
+    position: relative;
+    top:100px;
+}
+
+.menu{
+    font-family: "NotoSansCJKkr";
+    list-style: none;
+    text-align: right;
+    position: fixed;
+    top: 80%;
+    left: 85%;
+}
