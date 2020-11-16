@@ -26,7 +26,8 @@ img{
 }
 
 #icon{
-    display: inline;
+    display: inline-block;
+    top: 10%;
     width: 2%;
     height: 2%;
 }
