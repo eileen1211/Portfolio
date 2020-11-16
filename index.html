@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="site_title">Portfolio</div>
+        <div id="A_lazzy_day"><a href="lazzy_p.html"><img src="img/A_lazzy_day.png"></a></div>
+        <div id="almang"><a href="almang_p.html"><img src="img/almang.png"></a></div>
+        <div id="Stella_Alchemist"><a href="stella_p.html"><img src="img/Stella.png"></a></div>
+    </div>
+
+    <script>
+        //커서를 올리시 백그라운드 색상이 바뀜
+        $(document).ready(function(){
+           $('#A_lazzy_day').on('mouseover', function(){
+               $("#containter").css("background-color", "#2ee5a8");
+               console.log("위");
+           });
+
+           $("#almang").mouseover(function(){
+               $("#containter").css("background-color", "#ffdb76");
+           });
+
+           $("#Stella_Alchemist").mouseover(function(){
+               $("Stella_Alchemist").css("background-color", "#bfccf7");
+           });
+
+           //커서에서 나갈시 색깔이 원래대로
+           $("#A_lazzy_day").mouseout(function(){
+               $("A_lazzy_day").css("background-color", "#d6ccb4");
+           });
+        });
+    </script>
+</body>
+    
+</html>
